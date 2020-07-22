@@ -42,3 +42,71 @@ body{
     width: 30px;
     background-color: #FF9C35;
 }
+.smartphone-area{
+    padding: 80px 0;
+}
+.card{
+    border: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+
+}
+.card-deck{
+    padding-top: 20px;
+}
+.orange-highlight{
+    color: #FF9D00;
+    text-decoration: none;
+}
+.orange-highlight:visited{
+    color: #FF9D00;
+}
+.cat-section{
+    padding-top: 80px;
+}
+.categories{
+    padding: 80px 0;
+}
+.cat-header{
+    text-align: center;
+    position: relative;
+}
+.cat-header h3::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    left: 50%;
+    top: 45px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    border: 4px solid #FF9C35;
+}
+.items{
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.bag{
+    padding-top: 72%;
+    padding-left: 20px;
+}
+.shoes{
+    padding-top: 20px;
+}
+.col{
+    padding-top: 40px;
+}
+.item-title{
+    padding-top: 15px;
+}
+.item-2{
+    padding-left: 42px;
+}
