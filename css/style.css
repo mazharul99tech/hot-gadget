@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 .navbar img{
     width: 100px;
+}
+.buy-now-button{
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.bg-img-1{
+    background-image: url("../images/hot-gadgets/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-part{
+    height: 600px;
+    background-image: url("../images/hot-gadgets/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.carousel-indicators{
+    bottom: -116px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 8px;
+    background-color: #CECECE;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+.carousel-indicators .active{
+    width: 30px;
+    background-color: #FF9C35;
 }
